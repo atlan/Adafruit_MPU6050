@@ -42,7 +42,8 @@
 #define MPU6050_INT_PIN_CONFIG 0x37 ///< Interrupt pin configuration register
 #define MPU6050_INT_ENABLE 0x38     ///< Interrupt enable configuration register
 #define MPU6050_INT_STATUS 0x3A     ///< Interrupt status register
-#define MPU6050_WHO_AM_I 0x75       ///< Divice ID register
+#define MPU6050_WHO_AM_I_A 0x70       ///< Divice ID register
+#define MPU6050_WHO_AM_I_B 0x75       ///< Divice ID register
 #define MPU6050_SIGNAL_PATH_RESET 0x68 ///< Signal path reset register
 #define MPU6050_USER_CTRL 0x6A         ///< FIFO and I2C Master control register
 #define MPU6050_PWR_MGMT_1 0x6B        ///< Primary power/sleep control register
